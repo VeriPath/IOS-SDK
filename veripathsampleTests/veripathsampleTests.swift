@@ -1,16 +1,7 @@
-//
-//  veripathsampleTests.swift
-//  veripathsampleTests
-//
-//  Created by Haasith Sanka on 5/11/18.
-//  Copyright © 2018 Haasith Sanka. All rights reserved.
-//
-
 import XCTest
 @testable import veripathsample
 
 class veripathsampleTests: XCTestCase {
-    
     override func setUp() {
         super.setUp()
         // Put setup code here. This method is called before the invocation of each test method in the class.
@@ -32,5 +23,4 @@ class veripathsampleTests: XCTestCase {
             // Put the code you want to measure the time of here.
         }
     }
-    
 }

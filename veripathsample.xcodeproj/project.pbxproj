@@ -12,26 +12,23 @@
 		70E9D50020A608D000D0243D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70E9D4FE20A608D000D0243D /* Main.storyboard */; };
 		70E9D50220A608D000D0243D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70E9D50120A608D000D0243D /* Assets.xcassets */; };
 		70E9D50520A608D000D0243D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70E9D50320A608D000D0243D /* LaunchScreen.storyboard */; };
-		70E9D51020A608D000D0243D /* veripathsampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70E9D50F20A608D000D0243D /* veripathsampleTests.swift */; };
-		70E9D51B20A608D000D0243D /* veripathsampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70E9D51A20A608D000D0243D /* veripathsampleUITests.swift */; };
+		AA4A4BC120CAC52700EEE4C7 /* Veripath.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA4A4BB720CAB4EC00EEE4C7 /* Veripath.framework */; };
+		AA4A4BC220CAC52700EEE4C7 /* Veripath.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AA4A4BB720CAB4EC00EEE4C7 /* Veripath.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		70E9D50C20A608D000D0243D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 70E9D4EF20A608D000D0243D /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 70E9D4F620A608D000D0243D;
-			remoteInfo = veripathsample;
+/* Begin PBXCopyFilesBuildPhase section */
+		AA4A4BC320CAC52700EEE4C7 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				AA4A4BC220CAC52700EEE4C7 /* Veripath.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
 		};
-		70E9D51720A608D000D0243D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 70E9D4EF20A608D000D0243D /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 70E9D4F620A608D000D0243D;
-			remoteInfo = veripathsample;
-		};
-/* End PBXContainerItemProxy section */
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		70E9D4F720A608D000D0243D /* veripathsample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = veripathsample.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -41,12 +38,11 @@
 		70E9D50120A608D000D0243D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		70E9D50420A608D000D0243D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		70E9D50620A608D000D0243D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		70E9D50B20A608D000D0243D /* veripathsampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = veripathsampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		70E9D50F20A608D000D0243D /* veripathsampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = veripathsampleTests.swift; sourceTree = "<group>"; };
 		70E9D51120A608D000D0243D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		70E9D51620A608D000D0243D /* veripathsampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = veripathsampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		70E9D51A20A608D000D0243D /* veripathsampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = veripathsampleUITests.swift; sourceTree = "<group>"; };
 		70E9D51C20A608D000D0243D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA4A4BB720CAB4EC00EEE4C7 /* Veripath.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Veripath.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,26 +50,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		70E9D50820A608D000D0243D /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		70E9D51320A608D000D0243D /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				AA4A4BC120CAC52700EEE4C7 /* Veripath.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		708A6EF720C4C43F00A74363 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AA4A4BB720CAB4EC00EEE4C7 /* Veripath.framework */,
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
 		70E9D4EE20A608D000D0243D = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +72,7 @@
 				70E9D50E20A608D000D0243D /* veripathsampleTests */,
 				70E9D51920A608D000D0243D /* veripathsampleUITests */,
 				70E9D4F820A608D000D0243D /* Products */,
+				708A6EF720C4C43F00A74363 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -88,8 +80,6 @@
 			isa = PBXGroup;
 			children = (
 				70E9D4F720A608D000D0243D /* veripathsample.app */,
-				70E9D50B20A608D000D0243D /* veripathsampleTests.xctest */,
-				70E9D51620A608D000D0243D /* veripathsampleUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -135,6 +125,7 @@
 				70E9D4F320A608D000D0243D /* Sources */,
 				70E9D4F420A608D000D0243D /* Frameworks */,
 				70E9D4F520A608D000D0243D /* Resources */,
+				AA4A4BC320CAC52700EEE4C7 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -145,42 +136,6 @@
 			productReference = 70E9D4F720A608D000D0243D /* veripathsample.app */;
 			productType = "com.apple.product-type.application";
 		};
-		70E9D50A20A608D000D0243D /* veripathsampleTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 70E9D52220A608D000D0243D /* Build configuration list for PBXNativeTarget "veripathsampleTests" */;
-			buildPhases = (
-				70E9D50720A608D000D0243D /* Sources */,
-				70E9D50820A608D000D0243D /* Frameworks */,
-				70E9D50920A608D000D0243D /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				70E9D50D20A608D000D0243D /* PBXTargetDependency */,
-			);
-			name = veripathsampleTests;
-			productName = veripathsampleTests;
-			productReference = 70E9D50B20A608D000D0243D /* veripathsampleTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		70E9D51520A608D000D0243D /* veripathsampleUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 70E9D52520A608D000D0243D /* Build configuration list for PBXNativeTarget "veripathsampleUITests" */;
-			buildPhases = (
-				70E9D51220A608D000D0243D /* Sources */,
-				70E9D51320A608D000D0243D /* Frameworks */,
-				70E9D51420A608D000D0243D /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				70E9D51820A608D000D0243D /* PBXTargetDependency */,
-			);
-			name = veripathsampleUITests;
-			productName = veripathsampleUITests;
-			productReference = 70E9D51620A608D000D0243D /* veripathsampleUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -188,22 +143,12 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0920;
-				LastUpgradeCheck = 0920;
+				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = "Haasith Sanka";
 				TargetAttributes = {
 					70E9D4F620A608D000D0243D = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
-					};
-					70E9D50A20A608D000D0243D = {
-						CreatedOnToolsVersion = 9.2;
-						ProvisioningStyle = Automatic;
-						TestTargetID = 70E9D4F620A608D000D0243D;
-					};
-					70E9D51520A608D000D0243D = {
-						CreatedOnToolsVersion = 9.2;
-						ProvisioningStyle = Automatic;
-						TestTargetID = 70E9D4F620A608D000D0243D;
 					};
 				};
 			};
@@ -221,8 +166,6 @@
 			projectRoot = "";
 			targets = (
 				70E9D4F620A608D000D0243D /* veripathsample */,
-				70E9D50A20A608D000D0243D /* veripathsampleTests */,
-				70E9D51520A608D000D0243D /* veripathsampleUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -238,20 +181,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		70E9D50920A608D000D0243D /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		70E9D51420A608D000D0243D /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -264,36 +193,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		70E9D50720A608D000D0243D /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				70E9D51020A608D000D0243D /* veripathsampleTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		70E9D51220A608D000D0243D /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				70E9D51B20A608D000D0243D /* veripathsampleUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		70E9D50D20A608D000D0243D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 70E9D4F620A608D000D0243D /* veripathsample */;
-			targetProxy = 70E9D50C20A608D000D0243D /* PBXContainerItemProxy */;
-		};
-		70E9D51820A608D000D0243D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 70E9D4F620A608D000D0243D /* veripathsample */;
-			targetProxy = 70E9D51720A608D000D0243D /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		70E9D4FE20A608D000D0243D /* Main.storyboard */ = {
@@ -329,6 +229,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -336,6 +237,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -386,6 +288,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -393,6 +296,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -427,8 +331,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
 				INFOPLIST_FILE = veripathsample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.venpath.veripathsample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -441,74 +351,18 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
 				INFOPLIST_FILE = veripathsample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.venpath.veripathsample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		70E9D52320A608D000D0243D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = veripathsampleTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.venpath.veripathsampleTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/veripathsample.app/veripathsample";
-			};
-			name = Debug;
-		};
-		70E9D52420A608D000D0243D /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = veripathsampleTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.venpath.veripathsampleTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/veripathsample.app/veripathsample";
-			};
-			name = Release;
-		};
-		70E9D52620A608D000D0243D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = veripathsampleUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.venpath.veripathsampleUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = veripathsample;
-			};
-			name = Debug;
-		};
-		70E9D52720A608D000D0243D /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = veripathsampleUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.venpath.veripathsampleUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = veripathsample;
 			};
 			name = Release;
 		};
@@ -529,24 +383,6 @@
 			buildConfigurations = (
 				70E9D52020A608D000D0243D /* Debug */,
 				70E9D52120A608D000D0243D /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		70E9D52220A608D000D0243D /* Build configuration list for PBXNativeTarget "veripathsampleTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				70E9D52320A608D000D0243D /* Debug */,
-				70E9D52420A608D000D0243D /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		70E9D52520A608D000D0243D /* Build configuration list for PBXNativeTarget "veripathsampleUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				70E9D52620A608D000D0243D /* Debug */,
-				70E9D52720A608D000D0243D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

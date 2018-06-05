@@ -1,0 +1,11 @@
+framework module Veripath {
+  umbrella header "Veripath.h"
+
+  export *
+  module * { export * }
+}
+
+module Veripath.Swift {
+    header "Veripath-Swift.h"
+    requires objc
+}

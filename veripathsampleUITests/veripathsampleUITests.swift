@@ -1,15 +1,6 @@
-//
-//  veripathsampleUITests.swift
-//  veripathsampleUITests
-//
-//  Created by Haasith Sanka on 5/11/18.
-//  Copyright © 2018 Haasith Sanka. All rights reserved.
-//
-
 import XCTest
 
 class veripathsampleUITests: XCTestCase {
-        
     override func setUp() {
         super.setUp()
         
@@ -32,5 +23,4 @@ class veripathsampleUITests: XCTestCase {
         // Use recording to get started writing UI tests.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
     }
-    
 }
