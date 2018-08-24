@@ -26,7 +26,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		nWY06H4wqauhINZR7G5bUX9jzVo=
+		Ce9rQ7Xa4SIFO8ISJ3t3NqnBOcg=
 		</data>
 		<key>Modules/Veripath.swiftmodule/arm.swiftdoc</key>
 		<data>
@@ -34,7 +34,7 @@
 		</data>
 		<key>Modules/Veripath.swiftmodule/arm.swiftmodule</key>
 		<data>
-		mwRH7JrYTkP7KW1NtUi/QIZc4Y0=
+		5Bcp7NyqEI4lJyzd8g1/1lq6lJ0=
 		</data>
 		<key>Modules/Veripath.swiftmodule/arm64.swiftdoc</key>
 		<data>
@@ -42,7 +42,7 @@
 		</data>
 		<key>Modules/Veripath.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		Cwk4//M/lJOdLg5yNiU7kFb5Pi0=
+		y+aoTFce6GiFccqAqlSzOu5cygE=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -125,11 +125,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			mwRH7JrYTkP7KW1NtUi/QIZc4Y0=
+			5Bcp7NyqEI4lJyzd8g1/1lq6lJ0=
 			</data>
 			<key>hash2</key>
 			<data>
-			D7LBugZnLn8P6RJYxtpsRE6MegRjLlMDwgdM/CERZwc=
+			IXXHA6H0k+FULYgPdxXsMq+1VNwtCV5R0rMWCkhMLX0=
 			</data>
 		</dict>
 		<key>Modules/Veripath.swiftmodule/arm64.swiftdoc</key>
@@ -147,11 +147,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Cwk4//M/lJOdLg5yNiU7kFb5Pi0=
+			y+aoTFce6GiFccqAqlSzOu5cygE=
 			</data>
 			<key>hash2</key>
 			<data>
-			zdrU8DYWrRBGlHOb3+PpbIOgovpIp9z4EDxWLV3/cZc=
+			nd/CKf2nUnGvmpdl1s+7mU25xm2IVYH3TVWMXnfTgsA=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
