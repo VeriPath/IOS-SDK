@@ -23,13 +23,6 @@ class ViewController: UIViewController, VeripathViewDelegate {
         vView.delegate = self
         
         // Set the flags here on what to show & hide.
-        /*
-        vView.showContacts(show: true);
-        vView.showTransactions(show: true);
-        vView.showDemographics(show: true);
-        vView.showAppInteractions(show: true);
-        */
-        
         vView.showDeviceData(show: true);
         vView.showLocation(show: true);
         vView.showMatchingData(show: true);
