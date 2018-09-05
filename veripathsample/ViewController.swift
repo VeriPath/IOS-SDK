@@ -32,7 +32,7 @@ class ViewController: UIViewController, VeripathViewDelegate {
         vView.showAds(show: true);
         vView.showContent(show: true);
         
-        // Set the buyers of this data, if any.
+        // Set the 3rd party users of this data, if any.
         // If you comment this line out, it will just say "Internal" to the user, denoting you need this data internally.
         vView.setDataUsers(vendors: ["Google", "Facebook", "VenPath"]);
         
