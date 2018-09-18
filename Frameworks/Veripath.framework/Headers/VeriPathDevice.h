@@ -4,17 +4,13 @@
  NOTICE: All information contained herein is, and remains the property of Veripath, Inc. and its suppliers and licensors, if any. The intellectual and technical concepts contained herein are proprietary to Veripath, Inc. and its suppliers and licensors and are protected by trade secret or copyright law. Dissemination of this information or reproduction of this material is strictly forbidden unless prior written permission is obtained from Veripath, Inc.
  */
 
-#import <UIKit/UIKit.h>
-#import "VeriPathCore.h"
-#import "VeriPathUtil.h"
-#import "VeriPathDevice.h"
+#import <Foundation/Foundation.h>
+@import AdSupport;
 
-//! Project version number for Veripath.
-FOUNDATION_EXPORT double VeripathVersionNumber;
+@interface VeriPathDevice : NSObject
 
-//! Project version string for Veripath.
-FOUNDATION_EXPORT const unsigned char VeripathVersionString[];
-
-// In this header, you should import all the public headers of your framework using statements like #import <Veripath/PublicHeader.h>
-
-
++ (NSString *) identifierForAdvertising;
++ (NSString *) distinctId;
++ (NSString *) deviceModel;
++ (NSMutableDictionary *) collectAutomaticProperties;
+@end
