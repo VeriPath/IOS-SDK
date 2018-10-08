@@ -23,18 +23,24 @@ class ViewController: UIViewController, VeripathViewDelegate {
         vView.delegate = self
         
         // Set the flags here on what to show & hide.
-        vView.showContacts(show: true);
-        vView.showTransactions(show: true);
-        vView.showDemographics(show: true);
         vView.showDeviceData(show: true);
         vView.showLocation(show: true);
-        vView.showAppInteractions(show: true);
+        vView.showMatchingData(show: true);
+        vView.showMeasurement(show: true);
+        vView.showStorage(show: true);
+        vView.showPersonalization(show: true);
+        vView.showAds(show: true);
+        vView.showContent(show: true);
+        
+        // Set the 3rd party users of this data, if any.
+        // If you comment this line out, it will just say "Internal" to the user, denoting you need this data internally.
+        vView.setDataUsers(vendors: ["Google", "Facebook", "VenPath"]);
         
         // Showing the PayForPrivacy dialog
         vView.showPayForPrivacy(show: true);
         
         // How much are you going to charge if you can't use their data?
-        vView.setPrivacyPrice(privacy: "$1.99 / month");
+        vView.setPrivacyPrice(privacy: "$2.99 / month");
         
         // Set your colors
         vView.setPrimary(r: 211, g: 211, b: 211)
