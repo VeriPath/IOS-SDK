@@ -4,45 +4,45 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>Headers/VenPath.h</key>
+		<key>Headers/VeriPathCore.h</key>
 		<data>
-		WVaYoKmlOiMgOgXmnLBB2v7/Gno=
+		1fjRUv2CP8/792aofTrWsG+aswo=
 		</data>
-		<key>Headers/VenPathDevice.h</key>
+		<key>Headers/VeriPathDevice.h</key>
 		<data>
-		usi4LKXKVCl/tMR6zJvy2Faa7tc=
+		MX9CoLHUXp3vxbJ9m7L+zBrt2P0=
 		</data>
-		<key>Headers/VenPathUtil.h</key>
+		<key>Headers/VeriPathUtil.h</key>
 		<data>
-		y3dbJtFP3AW0kjTNqRPN3Ar7uAg=
+		AZu9+crT35kzA/SFnZN54Qf/8MA=
 		</data>
 		<key>Headers/Veripath-Swift.h</key>
 		<data>
-		/jG4OZstZ7v9q7Zo034I24N4nvk=
+		5dO7jUlpL0rNc2rxjZXjPR7Ycd8=
 		</data>
 		<key>Headers/Veripath.h</key>
 		<data>
-		kb3XjvM8fNik7t8czue0Eyxy32c=
+		4n3LyjGXXZn8DLoHunsad3EGfPE=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		Ce9rQ7Xa4SIFO8ISJ3t3NqnBOcg=
+		w72MCqVTYeOR2ODF6VO0wlDyb0Q=
 		</data>
-		<key>Modules/Veripath.swiftmodule/arm.swiftdoc</key>
+		<key>Modules/Veripath.swiftmodule/i386.swiftdoc</key>
 		<data>
-		AikWNGIu1G/hi6inOe6lNj9S0Os=
+		LDzIBaLwATLm7s7mhsADFMwfy1U=
 		</data>
-		<key>Modules/Veripath.swiftmodule/arm.swiftmodule</key>
+		<key>Modules/Veripath.swiftmodule/i386.swiftmodule</key>
 		<data>
-		5Bcp7NyqEI4lJyzd8g1/1lq6lJ0=
+		HsRM3geMmCjUET2TUMcvUaKlCqQ=
 		</data>
-		<key>Modules/Veripath.swiftmodule/arm64.swiftdoc</key>
+		<key>Modules/Veripath.swiftmodule/x86_64.swiftdoc</key>
 		<data>
-		pxmZ2rAkGNlO/2AGca8OA6l/s4o=
+		oHhHwobZ6mfZcKznp77F2dJlGc8=
 		</data>
-		<key>Modules/Veripath.swiftmodule/arm64.swiftmodule</key>
+		<key>Modules/Veripath.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		y+aoTFce6GiFccqAqlSzOu5cygE=
+		948If7/3eC+92wSJusjfkOmLfDw=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -55,103 +55,103 @@
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>Headers/VenPath.h</key>
+		<key>Headers/VeriPathCore.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			WVaYoKmlOiMgOgXmnLBB2v7/Gno=
+			1fjRUv2CP8/792aofTrWsG+aswo=
 			</data>
 			<key>hash2</key>
 			<data>
-			FSNzFdXhBB0mlUid+IkSf8/ch4mnpHRFLPhlMKdXuLY=
+			4JQos3G32v1S0L1BoCpyJH+iPHLz8TfSQ7t6rFCfmqk=
 			</data>
 		</dict>
-		<key>Headers/VenPathDevice.h</key>
+		<key>Headers/VeriPathDevice.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			usi4LKXKVCl/tMR6zJvy2Faa7tc=
+			MX9CoLHUXp3vxbJ9m7L+zBrt2P0=
 			</data>
 			<key>hash2</key>
 			<data>
-			lIS9Lbr6RedaLNkugyWb374CBKs0uZXAPsNJ3P5yzeA=
+			Fq6DgICMsi9+aSpAucNWrH0IaCTYajVhyr4zhYNkV3s=
 			</data>
 		</dict>
-		<key>Headers/VenPathUtil.h</key>
+		<key>Headers/VeriPathUtil.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			y3dbJtFP3AW0kjTNqRPN3Ar7uAg=
+			AZu9+crT35kzA/SFnZN54Qf/8MA=
 			</data>
 			<key>hash2</key>
 			<data>
-			dJ5fKuJq/7BGnK/YXF1GrZEWysW+bi2QjDDXZWIKceE=
+			90sBBLWfDJTP3Gc7mD2ZKih7uhrzbU/xF8ij2nSJ0xk=
 			</data>
 		</dict>
 		<key>Headers/Veripath-Swift.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			/jG4OZstZ7v9q7Zo034I24N4nvk=
+			5dO7jUlpL0rNc2rxjZXjPR7Ycd8=
 			</data>
 			<key>hash2</key>
 			<data>
-			FjMygddYkUHZcyi5SDhrzefYOlCzO+ml6SAu1S5iy2E=
+			83g7ViSxTQtZDB7ZP6u1XHNyPK8vkJwP2tvFYcwTmdg=
 			</data>
 		</dict>
 		<key>Headers/Veripath.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			kb3XjvM8fNik7t8czue0Eyxy32c=
+			4n3LyjGXXZn8DLoHunsad3EGfPE=
 			</data>
 			<key>hash2</key>
 			<data>
-			93DzJgDu7kU9lp52VXZtn+aVfcbDMqzK9LgW50iBt5w=
+			7PHGkptKiymPKEGt8sdneklSpLhLkpBr6D2xneiPOJc=
 			</data>
 		</dict>
-		<key>Modules/Veripath.swiftmodule/arm.swiftdoc</key>
+		<key>Modules/Veripath.swiftmodule/i386.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			AikWNGIu1G/hi6inOe6lNj9S0Os=
+			LDzIBaLwATLm7s7mhsADFMwfy1U=
 			</data>
 			<key>hash2</key>
 			<data>
-			lac3AkH1Vvm55lCyVw643tYnhBbes1fQ1RMg8mml8Wc=
+			oU6c9L7QsWWnMGG5xVcyblfNwesBQBe+w0BK00u91oo=
 			</data>
 		</dict>
-		<key>Modules/Veripath.swiftmodule/arm.swiftmodule</key>
+		<key>Modules/Veripath.swiftmodule/i386.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			5Bcp7NyqEI4lJyzd8g1/1lq6lJ0=
+			HsRM3geMmCjUET2TUMcvUaKlCqQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			IXXHA6H0k+FULYgPdxXsMq+1VNwtCV5R0rMWCkhMLX0=
+			ns5XL3CoWMhx1cpqpy14yaCgaq4PWVkBRDlN5F32Pqg=
 			</data>
 		</dict>
-		<key>Modules/Veripath.swiftmodule/arm64.swiftdoc</key>
+		<key>Modules/Veripath.swiftmodule/x86_64.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			pxmZ2rAkGNlO/2AGca8OA6l/s4o=
+			oHhHwobZ6mfZcKznp77F2dJlGc8=
 			</data>
 			<key>hash2</key>
 			<data>
-			8TVtvy8p6UbexTNRY9g9/WF5gtgweTH9t6ROgUQaIt8=
+			tyDLg2t4hUBjXG+mLZFF5DnqlXKbT+jxVBqmEyaaNQc=
 			</data>
 		</dict>
-		<key>Modules/Veripath.swiftmodule/arm64.swiftmodule</key>
+		<key>Modules/Veripath.swiftmodule/x86_64.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			y+aoTFce6GiFccqAqlSzOu5cygE=
+			948If7/3eC+92wSJusjfkOmLfDw=
 			</data>
 			<key>hash2</key>
 			<data>
-			nd/CKf2nUnGvmpdl1s+7mU25xm2IVYH3TVWMXnfTgsA=
+			a3e8xRE3gMyMI5tTJk82lKgtJ0mcNzwiOVJ+I8/0VRA=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
